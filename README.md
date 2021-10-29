@@ -1,4 +1,4 @@
-# pytypes-action
+# depcheck-action
 
 Run [depcheck](https://www.npmjs.com/package/depcheck) in a Github Workflow.
 
