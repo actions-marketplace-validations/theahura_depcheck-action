@@ -8,8 +8,6 @@ LABEL "repository"="https://github.com/theahura/depcheck-action"
 LABEL "homepage"="https://github.com/theahura/depcheck-action"
 LABEL "maintainer"="Amol Kapoor <amoljaykapoor@gmail.com>"
 
-RUN npm install -g depcheck
-
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
